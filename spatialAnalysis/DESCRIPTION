@@ -1,0 +1,16 @@
+Package: spatialAnalysis
+Maintainer: Machteld Varewyck <machteld.varewyck@openanalytics.eu>
+License: MIT
+Title: Spatial analysis for EFSA
+Type: Package
+Author: Machteld Varewyck
+Description: Data visualization and modelling spatio-temporal effects.
+Version: 0.0.8
+Date: 2016-05-26
+Imports:
+    shiny, spdep, classInt, automap, plyr, doBy, zoo, gstat
+Depends:
+	maptools, INLA
+Suggests:
+	testthat
+RoxygenNote: 5.0.1
